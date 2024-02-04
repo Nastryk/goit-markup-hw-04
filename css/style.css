@@ -96,6 +96,7 @@ img {
 .current {
   position: relative;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  color: #404bbf;
 }
 
 .current::after {
@@ -251,8 +252,6 @@ img {
 .team {
   background: #f4f4fd;
   padding: 120px 0 120px;
-  box-shadow: 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16),
-    0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .team-container {
@@ -274,6 +273,8 @@ img {
 
 .team-list {
   display: flex;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .team-item:last-child {
@@ -404,6 +405,9 @@ img {
 .footer {
   background: #2e2f42;
   padding: 100px 0 100px;
+  display: flex;
+  align-items: baseline;
+  margin-right: 120px;
 }
 
 .footer-logo {
@@ -432,6 +436,20 @@ img {
   margin-right: auto;
   max-width: 264px;
   margin-left: 0;
+}
+
+.media-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  margin-bottom: 16px;
+}
+
+.media-list {
+  display: flex;
+  gap: 16px;
 }
 
 /*========================*/
