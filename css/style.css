@@ -404,8 +404,6 @@ img {
 
 .footer-container {
   display: flex;
-  align-items: baseline;
-  margin-right: 120px;
 }
 
 .footer {
@@ -413,6 +411,8 @@ img {
   padding: 100px 0 100px;
 }
 
+.info-container {
+}
 .footer-logo {
   color: #4d5ae5;
   font-family: Raleway, sans-serif;
